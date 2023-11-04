@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg: #1e4de9;
+}
+
+.main-bg {
+  background: var(--main-bg) !important;
+}
+
+input:focus,
+button:focus,
+textarea:focus {
+  border: 1px solid var(--main-bg) !important;
+  box-shadow: none !important;
+}
+
+.form-check-input:checked {
+  background-color: var(--main-bg) !important;
+  border-color: var(--main-bg) !important;
+}
+
+.card,
+.btn,
+input {
+  border-radius: 0 !important;
+}
+
+.delete-btn {
+  border: none;
+  background: transparent;
+}
+.delete-btn:focus,
+.delete-btn:hover {
+  border: none;
+  text-decoration: underline;
+  border-color: transparent;
+}
+
+.custom-callout {
+  background-color: rgb(245, 200, 116);
+  color: #fff;
+  padding: 10px;
+  border-left: solid rgb(241, 180, 66);
+}
+
+.callout-title {
+  font-size: 18px;
+}
+
+.callout-text {
+  font-size: 14px;
+}
